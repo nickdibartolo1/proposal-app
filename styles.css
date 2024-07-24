@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    height: 70%;
+    width: 80%;
+    max-width: 800px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-container {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+.btn-container {
+    position: relative;
+    top: 30rem;
+}
+
+.btn {
+    padding: 3rem 5rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff5ff7, #fe7bb2);
+}
+
+.btn-1 {
+    margin-right: 4rem;
+}
+
+.btn-2 {
+    margin-left: 4rem;
+}
+
+#mover-btn {
+    position: absolute;
+    transition: left 0.5s ease, top 0.5s ease;
+}
